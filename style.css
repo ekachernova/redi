@@ -1,0 +1,9 @@
+nav {
+    background-color:yellow;
+    display: flex;
+}
+nav a {
+    padding: 5px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
