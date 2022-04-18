@@ -22,19 +22,18 @@ nav a {
 .logo {
     width: 300px;
     font-size: 18px;
-    font-style: italic;
+    font-family:'Josefin Sans', sans-serif;
     font-weight:bolder;
 }
 
 .logo span {
     color: red;
 }
-.search-profile-bag {
-    width: 300px;
-    text-align: right;
-    font-size: 7px; 
+.icons {
+    display: flex;
+    width: 500px;
+    font-size: 14px;
     font-weight: bold;
-    
 }
 
 .menu {
@@ -54,14 +53,15 @@ nav a {
     padding: 3px;
 
 }
+.icons i  {
+    padding: 2px;
+}
+
 .landing {
     display: flex;
     justify-content: space-around;
     background-color: rgb(241, 241,243);
-    
     height: 400px;
-    
-    
 }
 
 .landing-left {
