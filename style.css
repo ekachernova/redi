@@ -1,6 +1,6 @@
 body {
-    margin: 0px;
-    padding: 0px;
+    font-family:'Josefin Sans', sans-serif;
+
 }
 .content {
     font-family:'Josefin Sans', sans-serif;
@@ -121,28 +121,274 @@ nav ul li a {
     
 }
 
-#sub-header {
-    margin-left: 328px;
-    font-size: 32px;
+.new-arrivals {
+    display: flex;
+    justify-content: center;
 }
+
+#title-new {
+ 
+    width: 75%;
+    justify-content: flex-start;
+}
+
 .sub-landing {
     display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
-    font-weight: lighter;
+    justify-content: center;
+}
+
+.threeimages {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+.box {
+    width: 30%;
+}
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.sub-landing p {
     text-align: center;
-}
-
-.sub-landing h2 {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.sub-landing img {
-    width: 300px;
-    height: 400px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .sub-landing span {
     color: red;
-    font-size: 20px;
+    font-size: 16px;
 }
+
+/*Hamza's part starts here*/
+section2 h1{
+    padding-top: 2cm;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+ }
+ article{
+    color: gray;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: small;
+    padding-top:5px ;
+ }
+  
+ .grayColor{
+    color: darkslategrey;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top:10px;
+    font-size: small;
+ }
+ section2 h3{
+    color: darkslategrey;
+    font-family: 'Josefin Sans', sans-serif;
+ } 
+
+ .popular-items {
+     display: flex;
+     justify-content:space-around
+ }
+  
+ .popular-images {
+     display: flex;
+     width: auto;
+     width: 100%;
+     
+ }
+.box-item-left {
+    padding: 5px;
+    width: 50%;
+    height: auto;
+}
+
+.box-item-center{
+    padding: 5px;
+    width: 25%;
+    height: auto;
+
+}
+.box-item-right {
+    
+    width: 25%;
+    height: auto;
+
+}
+
+.box-item-left img {
+    width: 100%;
+    height: 100%;
+}
+.box-item-right img {
+    width: 100%;
+    height: 100%;
+}
+.box-item-center img {
+    width: 100%;
+    height: 100%;
+
+}
+ .row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2cm;
+    margin-left: auto;
+    margin-right: auto;
+   
+ }  
+  
+ .sec-row{
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+    padding-top: 2cm;
+   
+  
+ }
+  
+ section2 h2{
+    background-color: red;
+    color: whitesmoke;
+    text-align: center;
+    margin-top:10cm ;
+    padding-left:10% ;
+    padding-right: 10%;
+  
+   
+ }
+ .video{
+    width:1250px;
+    justify-content: center;
+    padding: 350px;
+  
+ }
+ .box-pop h3{
+    padding-left: 1em ;
+    padding-right: 1em;
+  
+ }
+  
+ .box-pop {
+    width:200px;
+ }
+  
+
+/*Ana's part starts here*/
+
+/* Elements*/
+
+ 
+ /*word "section" has been added to avoid conflict with other same tags*/
+section img {
+    width: 30%;
+    height: 30%;
+    margin: 5%;
+    border-radius: 5%;
+}
+ /*word "section" has been added to avoid conflict with other same tags*/
+section h2{
+    font-weight: 700;
+    font-size: xx-large;
+ 
+}
+/*word "section" has been added to avoid conflict with other same tags*/
+section button{
+    color: white;
+    font-style: normal;
+    background-color: red;
+    padding: 1rem;
+    margin-top: 10%;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: red;
+    border:outset red;
+}
+ /*word "section" has been added to avoid conflict with other same tags*/
+section li{
+    list-style-type: none;
+    text-decoration: none;
+}
+ 
+ 
+/*HOVER*/
+ 
+/*word "section" has been added to avoid conflict with other same tags*/
+section h2:hover{
+    text-transform: uppercase;
+}
+ 
+li:hover{
+   
+    text-transform: uppercase;
+}
+ 
+i:hover{
+transform:scaleX(30%);
+}
+ 
+/*ID's*/
+ 
+#naviforce{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+ 
+#casio{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+ 
+#red-section{
+    background-color: red;
+    font-size: 80%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding: 1em;
+    margin-top: 1.5em;
+}
+ 
+#quick-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    margin-top: 1.5em;
+   
+}
+ 
+#social-media{
+        margin: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+ 
+}
+ 
+    /*Classes*/
+ 
+ 
+   
+.left-side {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        margin-right: 20px;
+        font-size: 1em ;
+        text-transform: uppercase;
+}
+ 
+.description{
+    width: 30%;
+    height: 30%;
+    margin: 5%;
+}
+ 
+.red{
+    color: red;
+}
+ 
+
