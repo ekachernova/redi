@@ -110,7 +110,7 @@ li {
     display: flex;
     margin: 80px;
     height: 50%;
-    background-color: darkgoldenrod;
+   
 }
 .column {
     width: 20%;
@@ -256,4 +256,10 @@ toggle between hiding and showing the dropdown content */
     flex-direction: column;
 }
 
+.social-media {
+    display: flex;
+}
 
+.footer-tags {
+    display: flex;
+}
