@@ -1,0 +1,8 @@
+{
+    "liveServer.settings.port": 8080,
+    "liveServer.settings.wait": 50,
+    "liveServer.settings.useBrowserPreview": true,
+    "livePreview.showServerStatusNotifications": true,
+    "livePreview.serverKeepAliveAfterEmbeddedPreviewClose": 0,
+    "livePreview.defaultPreviewPath": "/prevess.html"
+}

@@ -1,0 +1,35 @@
+/* copy this on top of every css file you do */
+*,
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.denmark {
+  
+    display: grid;
+    grid-template-columns:100px 200px;
+    grid-template-rows:100px 100px;
+    gap: 20px;
+
+}
+
+.grid-item-den-1 {
+    background-color:red;
+    
+}
+
+.grid-item-den-2 {
+    background-color:red;
+    
+}
+.grid-item-den-3 {
+    background-color:red;
+
+}
+
+.grid-item-den-4 {
+    background-color:red;
+
+}
