@@ -1,0 +1,44 @@
+body {
+    
+}
+
+.wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.box1 {
+    
+    width: 45%;
+    background-color: yellow;
+
+   
+}
+
+.box2 {
+
+    width: 45%;
+    background-color: rgb(255, 0, 0);
+  
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .wrapper {
+      flex-direction: column;
+    
+    }
+
+    .box1 {
+        width: 100%;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+
+
+  }

@@ -1,0 +1,259 @@
+* copy this on top of every css file you do */
+*,
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    width: 100%;
+   
+}
+
+body {
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  
+     
+}
+
+.header {
+    width: inherit;
+   
+}
+
+.int-customers-disclaimer {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: #f3edeb;
+   
+}
+
+#text {
+
+    font-size: 12px;
+    color: #e3442b;
+    font-weight: 400;
+   
+}
+
+
+
+.main_logo_nav {
+    width: 100%;
+    display: flex;
+    background-color: #fdf6f0;
+    height: 200px;
+    position: sticky;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: lighter;
+
+}
+
+.menu {
+
+    padding-top: 60px;
+   
+  
+
+}
+ul {
+    display: flex;
+    width: 33,3333%;
+
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px;
+    
+}
+.logo {
+    width:33,3333%;
+
+   
+}
+
+.icons-bar {
+    display: flex;
+    width: 33,3333;
+    justify-content: flex-end;
+    padding-top: 80px;
+   
+
+}
+
+.icon {
+    display: flex;
+}
+
+.row-product {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    height: 800px;
+   
+}
+
+.img-carousel {
+    width: 50%;
+    display: flex;
+    margin: 80px;
+    height: 50%;
+    background-color: darkgoldenrod;
+}
+.column {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-chosen-image {
+    width: 80%;
+    height: 400px;
+}
+.product-info {
+    width: 50%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#product-name {
+    font-size:xxx-large;
+    font-weight: lighter;
+    line-height: 8wd;
+}
+
+span {
+    font-size: 20px;
+}
+
+.drop-button {
+
+    color: black;
+    text-align: left;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .size-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .quantity {
+      display: flex;
+      margin-top: 20px;
+  }
+
+  .quantity .drop-button {
+      text-align: right;
+    
+  }
+  .add-to-cart-btn {
+    margin-top: 20px;
+
+  }
+
+  button {
+    color: black;
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+/* How it works?Only with Java Script?
+Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) 
+  .show {display:block;}
+
+  /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+
+/*.function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  .onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  } 
+
+*/
+
+.you-may-row {
+
+    display: flex;
+    background-color: #fdf6f0;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.you-may-cont {
+    width: 25%;
+    padding: 40px;
+    height: 70%;
+}
+
+.you-may-cont span {
+    font-size: 12px;
+    
+}
+
+.you-may-cont h1 {
+    line-height: 3.25rem;
+    font-size: 2,5rem;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.row-newsletter-etc {
+
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+
+.footer-cont {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+

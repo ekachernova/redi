@@ -1,0 +1,67 @@
+* {
+    background-color:azure;
+    font-family:sans-serif;
+    font-style:normal;
+    color:brown;
+    
+}
+
+.main-header {
+    margin-left: 200px;
+    margin-top: 40px;
+   
+}
+.sub-header {
+    margin-left: 200px;
+    font-size: smaller;
+    height: 50px;
+    
+}
+h1 {
+    font-weight: bold;
+}
+.blog-post h2 {
+    font-weight: bold;
+    background-color:darkcyan;
+    color: white;
+
+}
+p {
+    background-color:darkcyan;
+    color: white;
+}
+
+.blog-post  {
+
+    box-sizing: border-box;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 40px;
+    background-color:darkcyan;
+  
+}
+
+img {
+   
+size: inherit;
+    
+    
+    
+}
+.blog-post a {
+    background-color:darkcyan;
+    color: white;
+}
+span {
+    color:yellow;
+    font-size: xxx-large;
+    
+}
+ul {
+    margin-left: 160px;
+}
+li {
+    display:inline;
+}

@@ -1,0 +1,40 @@
+body {
+  background-color: whitesmoke;
+  margin: 50px 150px 150px;
+
+}
+
+
+h1 {
+  color: darkolivegreen;
+  text-align-last: left;
+  font-style: oblique;
+  font: bold;
+  color: saddlebrown;
+  
+ 
+
+}
+
+h2 {
+  color: darkolivegreen;
+  text-align-last: left;
+  margin-left: 0px;
+  
+}
+
+ul {
+  font-style: oblique;
+  text-align: left;
+  text-decoration: double;
+  margin: 25px 15px 25px;
+}
+
+ol {
+  font-style: oblique;
+  text-align: left;
+  text-decoration: double;
+  margin: 25px 15px 25px;
+
+}
+
